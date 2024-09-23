@@ -1,0 +1,9 @@
+{
+	"name": "shanccodatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "244eb7f3-96c2-4abe-b909-ff1941a33682",
+		"tenantId": "79aac6ea-e8ce-4a03-9c7d-30ef2e90c239"
+	}
+}
