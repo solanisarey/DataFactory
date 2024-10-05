@@ -19,7 +19,7 @@
 					"notebookPath": "/Users/solanisarey04@outlook.com/Ingesta_capa_Bronce_Plata"
 				},
 				"linkedServiceName": {
-					"referenceName": "Conexion_AzureDatabricks",
+					"referenceName": "Conector_AzureDtabricks_DataFactory",
 					"type": "LinkedServiceReference"
 				}
 			}
