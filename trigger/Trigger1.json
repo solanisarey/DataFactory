@@ -1,0 +1,26 @@
+{
+	"name": "Trigger1",
+	"properties": {
+		"description": "Ejecución directa de los pipelines cada tres dias",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Ejecucion_total",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 3,
+				"startTime": "2024-10-05T04:40:00",
+				"endTime": "2024-10-29T09:27:00",
+				"timeZone": "SA Pacific Standard Time"
+			}
+		}
+	}
+}

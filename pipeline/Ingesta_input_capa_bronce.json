@@ -1,5 +1,5 @@
 {
-	"name": "Ingesta_capa_bronce",
+	"name": "Ingesta_input_capa_bronce",
 	"properties": {
 		"description": "Ingesta de datos desde input hasta capa bronce",
 		"activities": [
@@ -26,6 +26,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
