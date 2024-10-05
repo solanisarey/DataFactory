@@ -16,7 +16,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/solanisarey04@outlook.com/ingesta_capa_Bronce_Plata"
+					"notebookPath": "/Users/solanisarey04@outlook.com/Ingesta_capa_Bronce_Plata"
 				},
 				"linkedServiceName": {
 					"referenceName": "Conector_AzureDtabricks_DataFactory",
