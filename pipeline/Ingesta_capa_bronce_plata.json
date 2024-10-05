@@ -2,6 +2,28 @@
 	"name": "Ingesta_capa_bronce_plata",
 	"properties": {
 		"description": "Ingesta de capa bronce a plata",
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/solanisarey04@outlook.com/Ingesta_capa_Bronce_Plata"
+				},
+				"linkedServiceName": {
+					"referenceName": "Conector_AzureDatabricks_Datafactory",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
 		"annotations": []
 	}
 }
