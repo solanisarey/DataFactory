@@ -1,0 +1,29 @@
+{
+	"name": "Ingesta_capa_plata_oro",
+	"properties": {
+		"description": "Ingesta de datos de la capa plata a oro\n",
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/solanisarey04@outlook.com/Ingesta_capa_plata_oro"
+				},
+				"linkedServiceName": {
+					"referenceName": "Conector_Azure_DatabricksDataFactory",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
